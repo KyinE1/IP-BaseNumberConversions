@@ -2,11 +2,11 @@
 #include <string>
 
 /** Driver. Direct Cache Simulation. Evicts a block whenever another memory
- * 	reference needs that block.
+ * reference needs that block.
  *
- * 	@note: The number of cache misses are the items that
- * 	have not been indexed into the cache.
- */
+ * @note: The number of cache misses are the items that
+ * have not been indexed into the cache.
+ * */
 int main() {
 	struct CacheSim {
 		unsigned int data : 8;
